@@ -1,64 +1,54 @@
 # Resume
-[Download PDF :material-tray-arrow-down:](#){ .md-button }
+[Download PDF :material-tray-arrow-down:](resume2024.pdf){ .md-button }
 
 ## Em Heinz
 *they/them/theirs*
 
-**Managing Editor • Documentation Engineer • Technical Writer**
+**Manager • Documentation Engineer • Technical Writer**
 
-I am relentlessly in pursuit of quality, achieved collaboratively. I do my best to empower the people I work with to feel satisfied in what they do, to enable them to grow and learn, and to be adequately challenged at the same time as sufficiently supported. I am a voracious learner, and a big fan of unconventional approaches.
+I pursue quality achieved collaboratively. I strive to empower the people I work with to do their best work, to grow, and to feel satisfied in their work. I am a voracious learner, and a big fan of unconventional approaches to problem solving.
 
 ***
 
 ## Experience
 
-### **Managing Editor** at **CoreWeave, Inc.** – New York (Remote)
+### CoreWeave, Inc. – New York (Remote)
 
-*June 2022 - Present*
+**Managing Editor**
 
-Initially hired as the sole technical writer for what is now one of the most high-profile startups in the world, creating documentation for a specialized Cloud provider serving  high-end GPUs and cutting-edge infrastructure for ML/AI and VFX clients.
+*January 2024 - Present*
 
-With no existing documentation structure or processes, I took charge of updating all existing content in public-facing documentation, creating a new documentation development lifecycle with project management, while simultaneously generating new content as products developed and evolved.
+As Managing Editor at CoreWeave, I interface primarily with key stakeholders across Engineering, Product, and Marketing teams to ensure that crucial product documentation is produced on time and achieving our high standards. I strive to ensure my team feels heard and supported so that they may succeed and thrive. I continue to generate and edit product documentation across HPC, ML/AI, and VFX spaces using docs-as-code workflows and implementing the DITA framework Diátaxis.
 
-I aided in onboarding the second hire, moving into implementing the DITA framework, Diátaxis, for our documentation. I created the role of Managing Editor, and successfully pitched myself as a fit for the role with the support of my peers.
+**Senior Technical Writer**
 
-Today, I support my team members and cross-functional stakeholders in accomplishing tasks and iteratively improving on all things related to our internal and external documentation.
+*June 2022 - January 2024*
+
+As the sole technical writer at the time, I took on the task of editing and re-structuring all existing public-facing documentation, simultaneously generating new articles while implementing the first formal lifecycle processes for all product documentation. I wore the hat of project manager, product manager, and technical writer, all rolled into one.
 
 ### **Technical Writer** at **Bolt, Inc.** – New York (Remote)
 
 *June 2021 - October 2022*
 
-Hired as the second ever team member, I helped develop the documentation processes at a fast-paced fintech company.
-
-Using Hugo hosted on Netlify in concert with Swagger CLI, I documented APIs, platform user flows, UX and UI elements, as well as internal documentation ranging from general procedure to data privacy for clients and end users.
-
-I also helped organize the internal queer affiliate group, organizing happy hours focusing on the queer-identifying members of the company while keeping it open to all.
+Hired as the second ever technical writing team member, I helped develop the documentation lifecycle processes at a fast-paced fintech company. Using Hugo hosted on Netlify in concert with Swagger CLI, I documented APIs, platform user flows, UX and UI elements, as well as internal documentation on data privacy and general procedure. Additionally, I helped head up the internal queer affiliate group, organizing happy hours focusing on the queer-identifying members of the company, while maintaining an open and accepting atmosphere.
 
 Independent initiatives included developing automated systems for docs-as-code workflows, introducing a systematized pipeline in support of processes that resulted in improved cross-collaboration between Customer Education and all other teams (Engineering, Product, and Marketing).
-
-Collaborated with educational designers and other key stakeholders to develop and implement  effective information architecture strategies in coordination with client-oriented educational design materials.
 
 ### **Site Reliability Engineer** at **Fairwinds, Inc.** – Boston (Remote)
 
 *December 2019 - June 2021*
 
-Built, managed, and improved on Kubernetes clusters in staging and production environments for clients around the world.
+As a Site Reliability Engineer and Kubernetes consultant at Fairwinds, I built, managed, and improved upon production Kubernetes clusters for clients around the world. I conferred with clients in order to understand their infrastructure needs, then aided in the design and implementation of the appropriate configurations across EKS, AWS (with kOps), GKE, and AKS providers. I served as Security Officer, researching current security bulletins related to digital infrastructure and Kubernetes in order to develop internal and client-facing communication on vulnerabilities. I contributed code for internally developed Terraform modules and other tooling written in Python and Bash.
 
-Conferred face-to-face with clients in order to understand their infrastructure needs, then helped design and implement the appropriate configurations across EKS, AWS (with kOps), GKE, and AKS providers.
-Served as Security Officer, researching current security bulletins related to infrastructure and Kubernetes; developed internal and client-facing communications on discovered vulnerabilities.
-Contributed code for internally developed Terraform modules and other tooling written in Python and Bash.
-Guided the design of team processes and structure for developing scalable, repeatable, dependable operations across the engineering department. Headed internal learning and development programs. Selected to act as a bridge between engineers and leadership. Was selected to organize and lead most weekly engineering meetings.
-
-During my time as a consultant, I took on the role of internal technical writer, taking ownership of the internal knowledgebase and technical wiki. I instigated the adoption of an internal RFC process for making department-wide decisions and proposals for advancing our technical standards.
+Taking on additional responsibilities, I aided in the development of team processes and org structure for developing scalable, repeatable, dependable operations across the engineering department. Additionally, I headed up internal learning and employee development programs, and was asked by leadership to represent my team in several key meetings. I took ownership of the internal knowledgebase and internal technical wiki, and instigated the adoption of an internal RFC process for making department-wide decisions and proposals for advancing our technical standards.
 
 ### **DevOps Engineer** at **Fractured Atlas** – New York (Remote)
 
 *2018 - 2019*
 
 Acted as primary support for team leadership. Performed research and testing, aided in containerizing applications, and orchestrated containers using Docker Compose and later Kubernetes.
-Manually administered Linux infrastructure across CentOS and Ubuntu environments. Researched and implemented solutions for product software. Researched and learned about Solr clusters for search capabilities.
 
-Managed operations-critical software, such as LDAP and Windows machines running financial software.Facilitated the onboarding of macOS management Jamf Pro across the organization, acting as a technical connection point between Jamf representatives and internal management.
+Manually administered Linux infrastructure across CentOS and Ubuntu environments. Researched and implemented solutions for product software. Researched and learned about Solr clusters for search capabilities. Managed operations-critical software, such as LDAP and Windows machines running financial software.Facilitated the onboarding of macOS management Jamf Pro across the organization, acting as a technical connection point between Jamf representatives and internal management.
 
 ## Personal projects
 
@@ -105,3 +95,16 @@ Independently designed and implemented virtual structures in which students and 
 
 *With an emphasis on the philosophy of art, aesthetics, and moral and ethical philosophy.*
 **Graduated with Honors**
+
+## Languages (human)
+- English • Native
+- Norwegian/Norsk • Advanced
+- Spanish/Español • Conversational
+- French/Français • Basic
+- Irish/Gaelige • Beginner
+
+## Languages (programming)
+- Python
+- Ruby
+- JavaScript
+- Golang
