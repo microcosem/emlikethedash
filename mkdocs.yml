@@ -10,7 +10,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: amber
-      accent: teal
+      accent: amber
       toggle:
         icon: material/weather-sunny
         name: Light Mode
@@ -18,7 +18,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: amber
-      accent: teal
+      accent: amber
       toggle:
         icon: material/weather-night
         name: Dark Mode
