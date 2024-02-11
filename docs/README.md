@@ -1,5 +1,5 @@
 # ✨ Welcome to my digital corner
-Hello and welcome! This repository hosts [the personal-professional website of myself, Em H](https://em-like-the-dash.vercel.app/). It is built and publcily hosted using a stack I've wanted to play with for a while. The content of the site contains my professional history, and some of my general musings. The git history of this repo is intentionally left verbose (little to no squashes or rebasing).
+Hello and welcome! This repository hosts [the personal-professional website of myself, Em H](https://em-like-the-dash.vercel.app/). It is built and publcily hosted using a stack I've wanted to play with for a while. The content of the site contains my professional history, and some of my general musings.
 
 👉 [Heck just go to the site](https://em-like-the-dash.vercel.app/)
 
