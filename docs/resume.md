@@ -67,7 +67,7 @@ As an off-shoot of the Tech Learning Collective, I/O was a neighborhood tech co-
 
 *2017*
 
-Using the unclaimed produce from a local farm CSA, I co-organized a weekly event, where free brunch foods were cooked and served to all participants in attendance. Students used CTF hacking games to learn cybersecurity fundemtnals, with instruction from knowledgeable leaders.
+Using the unclaimed produce from a local farm CSA, I co-organized a weekly event, where free brunch foods were cooked and served to all participants in attendance. Students used CTF hacking games to learn cybersecurity fundamentals, with instruction from knowledgeable leaders.
 
 ### Flora Posidonia & The Healer's Flea
 
