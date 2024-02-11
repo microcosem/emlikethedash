@@ -10,7 +10,7 @@ I chose MkDocs because it is one of the most popular static site generators for 
 
 I chose Vercel because it is a modern CD pipeline host that seems to be growing in popularity, and I wanted to see how it worked. I'm using their free tier, and it was fairly easy to get my site up and running, with some caveats (see "Hosting on Vercel" below).
 
-## How to build
+## Build the site
 
 ### Locally with Docker
 This is by far the simplest option for local deployment.
@@ -47,7 +47,7 @@ INFO    -  Documentation built in 0.34 seconds
 INFO    -  [13:29:30] Watching paths for changes: 'docs', 'mkdocs.yml'
 INFO    -  [13:29:30] Serving on http://127.0.0.1:8000/
 ```
-4. Hit the local server at `http://127.0.0.1:8000/`.
+4. Hit the local server at `localhost:8000`.
 
 ## Hosting on Vercel
 [Vercel](https://vercel.com) is a lightweight hosting platform specifically designed for frontends. If you'd like to use my site code to learn Vercel like I did, please do! Here's how.
