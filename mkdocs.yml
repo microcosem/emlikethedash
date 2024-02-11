@@ -1,0 +1,40 @@
+---
+site_name: Em Like the Dash
+docs_dir: docs
+theme:
+  name: material
+  font:
+    text: Inter
+  palette: 
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - blog:
+      authors: false
+  - privacy
+repo_url: https://github.com/microcosem/emheinz.github.io
+nav:
+  - Home: 'index.md'
+  - Résumé: 'resume.md'
+  - 'Portfolio':
+    - Professional: 'professional.md'
+    - Independent: 'independent.md'
