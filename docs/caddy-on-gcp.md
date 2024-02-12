@@ -38,17 +38,17 @@ Caddy calls its configuration files `Caddyfiles`. In my case, I wanted to write 
 
 Caddy's [requirements for automatic HTTPS](https://caddyserver.com/v1/docs/automatic-https) are pretty simple:
 
-* The hostname:
-  * is not empty
-  * is not `localhost`
-  * is not an IP address
-  * has no more than 1 wildcard (*)
-  * wildcard must be left-most label
-* The port is not explicitly 80
-* The scheme is not explicitly http
-* TLS is not turned off in site's definition
-* Certificates and keys are not provided by you
-* Caddy is able to bind to ports 80 and 443 (unless you use the DNS challenge)
+1. The hostname:
+     - is not empty
+     - is not `localhost`
+     - is not an IP address
+     - has no more than 1 wildcard (`*`)
+     - the wildcard is the left-most label
+1. The port is not explicitly `80`
+2. The scheme is not explicitly `http`
+3. TLS is not turned off in site's definition
+4. Certificates and keys are not provided by you
+5. Caddy is able to bind to ports `80` and `443` (unless you use the DNS challenge)
 
 So long as all of the above criteria are met, Caddy _should_ be able to automatically issue HTTPS certificates. These are all basically what you might expect to be true for the issuing of a TLS certificate.
 
