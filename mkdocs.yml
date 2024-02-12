@@ -48,7 +48,7 @@ plugins:
   - blog:
       authors: false
   - privacy
-repo_url: https://github.com/microcosem/emheinz.github.io
+repo_url: https://github.com/microcosem
 nav:
   - Home: 'index.md'
   - Résumé: 'resume.md'
