@@ -1,5 +1,12 @@
 # A quick and easy guide to using Caddy as a load balancer on Google Cloud Platform
 
+!!! note
+    **Editor's note**:
+    
+    I wrote this blog post at a very early point in my DevOps career. Although some of the technology is already outdated, the post itself is still thorough and useful - thus, I like keeping it in my professional portfolio.
+
+*Originally authored in 2019*
+
 When I was tinkering with deploying a Caddy container as a Load Balancer for an application container on GCP, I tripped over a few basic things that I think are probably pretty common confusions when you're just getting started. Most of the guides I found online didn't really consider some of these things, so, after successfully deploying this for myself, I figured I would write a quick-'n-easy guide about this in the hopes to help anyone else who's having trouble with this.
 
 ## Assumptions
@@ -266,14 +273,12 @@ So, what's the main mistake here?
 
 In thinking, "Oh, I have a load balancer that needs to proxy traffic to my Web application container, then the Caddy service should be pointing at the Web container."
 
-I highlight this mistake because I think it's a really good example of more traditional sysadmin thinking muddying the waters for this particular modern DevOps context and concept. I was thinking too much about the relationship between reverse proxy server (and TLS terminator/generator) and Web server, and not enough about the nature of the platform, or, moreover, _how_ this relationship was being enacted. And, further, I forgot where one process ended and another began. Even another experienced sysadmin on my team took a look at my broken config, and we worked on this for hours (tunnel vision is a killer) without seeing the problem.
+I highlight this mistake because I think it's a really good example of more traditional sysadmin thinking muddying the waters for DevOps patterns. I was caught up thinking about the relationship between the reverse proxy server (and TLS terminator/generator) and the Web server, and not enough about the nature of the platform, or _how_ this relationship was being enacted. Further, I forgot where one process ended and another began. Another more experienced engineer on my team took a look at my broken config, and we worked on this for hours, both locked in tunnel vision, without seeing the problem.
 
-It was finally a third engineer who took a look at the work, and immediately recognized what was wrong. It was kind of embarrassing to make such an obvious mistake, but as one of my mentors frequently says, "obvious things are hard to see." They're even harder to see when you've gotten so entrenched in one method of thinking, that you forget that your method has changed.
+It was finally only when a third engineer took a look at the work and immediately recognized what was wrong. It was kind of embarrassing to make such an obvious mistake, but as one of my mentors frequently says, "obvious things are hard to see."
 
-Not to digress too far here, but I really think that this is why a background in philosophy really helps: you have to be able to recognize when you've left one universe of thinking and entered into another. You have to come to an understanding of the shape, process, logic of the universe in which you're working—that is to say, its _grammar_. And you also have to take breaks from time to time, clear your mind, and try to prevent tunnel-vision from reifying what you think is right, but which is actually not working.
-
-At the end of the day, my Caddy container _had no Services_ to expose the Caddy container to the outside world, so when I was trying to hit the service, of course I received nothing more than an "Unable to connect" error in my browser.
+At the end of the day, my Caddy container _had no Services_ with which to expose the Caddy container to the outside world, so when I was trying to hit the Service, of course I got only an "Unable to connect" error in my browser.
 
 So, of course, once I appropriately configured a service (`LoadBalancer`) for the Caddy container itself, then the Caddy container did its thing within the VPC, reverse proxying traffic to our Web service endpoint (with the hostname of `myapp-web`).
 
-The moral of the story is to try keeping some visualizations nearby that can help you think through what your network is actually doing, and how the services on it are being reached. It's also about not feeling too bad about it when you make a mistake. Changing our working mental models of how all this is supposed to go is no small feat! Mistakes are valuable learning opportunities, and I certainly wanted to share mine here.
+The moral of the story is to try keeping some visualizations nearby that can help you think through what your network is actually doing, and how the Services on it are being reached. It's also about not feeling too bad about it when you make a mistake. Changing our working mental models of how all this is supposed to go is no small feat! And never forget: mistakes are valuable learning opportunities.
