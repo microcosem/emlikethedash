@@ -1,5 +1,7 @@
 # Resume
 [Download PDF :material-tray-arrow-down:](resume2024.pdf){ .md-button }
+[LinkedIn :material-linkedin:](https://www.linkedin.com/in/em-h-2b80992b3){ .md-button }
+[GitHub :material-github:](https://github.com/microcosem){ .md-button }
 
 ## Em Heinz
 *they/them/theirs*
