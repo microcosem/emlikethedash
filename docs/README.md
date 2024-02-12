@@ -1,3 +1,4 @@
+[![build-and-publish](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/publish.yml) [![pages-build-deployment](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/conceptualshark/conceptualshark.github.io/actions/workflows/pages/pages-build-deployment) ![Built with Markdown](https://img.shields.io/badge/Markdown-blue) ![Built with Mkdocs](https://img.shields.io/badge/Mkdocs-red)
 # ✨ Welcome to my digital corner
 Hello and welcome! This repository hosts [the personal-professional website of myself, Em H](https://em-like-the-dash.vercel.app/). It is built and publcily hosted using a stack I've wanted to play with for a while. The content of the site contains my professional history, and some of my general musings.
 
