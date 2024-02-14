@@ -6,6 +6,7 @@ hide:
 
 The following samples are things I just did for fun and because I thought there was a need, or for my own projects.
 
+## **Technical**
 <div class="grid cards" markdown>
 
 -   :simple-materialformkdocs: **About This Site: Em Like the Dash**
@@ -23,6 +24,11 @@ The following samples are things I just did for fun and because I thought there 
     A blog-style post on how to deploy Caddy as a loadbalancer on Google Cloud Platform with Kubernetes.
 
     [:octicons-arrow-right-24: Read](caddy-on-gcp.md)
+
+</div>
+
+## **Editorial**
+<div class="grid cards" markdown>
 
 -   :material-pencil:{ .lg .middle } **How to Become a Technical Writer (`awesome-technical-writing`)**
 
