@@ -36,8 +36,12 @@ theme:
       toggle:
         icon: material/weather-night
         name: Dark Mode
+  features:
+    - navigation.footer
+    - search.suggest
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -45,6 +49,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 plugins:
+  - search
   - blog:
       authors: false
   - privacy
@@ -54,4 +59,10 @@ nav:
   - Résumé: 'resume.md'
   - 'Portfolio':
     - Professional: 'professional.md'
-    - Independent: 'personal.md'
+    - Personal: 'personal.md'
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/microcosem
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/em-h-2b80992b3/
