@@ -1,4 +1,8 @@
-# Resume
+---
+hide:
+  - footer
+---
+# Experience
 [Download PDF :material-tray-arrow-down:](resume2024.pdf){ .md-button }
 [LinkedIn :material-linkedin:](https://www.linkedin.com/in/em-h-2b80992b3){ .md-button }
 [GitHub :material-github:](https://github.com/microcosem){ .md-button }
@@ -11,8 +15,6 @@
 I pursue quality achieved collaboratively. I strive to empower the people I work with to do their best work, to grow, and to feel satisfied in their work. I am a voracious learner, and a big fan of unconventional approaches to problem solving.
 
 ***
-
-## Experience
 
 ### CoreWeave, Inc. – New York (Remote)
 

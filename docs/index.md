@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 # Welcome!
 
 ## `whoami`
