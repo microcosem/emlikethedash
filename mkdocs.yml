@@ -23,16 +23,16 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: amber
-      accent: amber
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/weather-sunny
         name: Light Mode
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: amber
-      accent: amber
+      primary: blue grey
+      accent: blue grey
       toggle:
         icon: material/weather-night
         name: Dark Mode
