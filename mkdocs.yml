@@ -59,7 +59,9 @@ nav:
   - Projects: 'projects.md'
   - Talks: 'talks.md'
   - Writing: 'personal.md'
-  - Professional: 'resume.md'
+  - Professional:
+    - History: 'resume.md'
+    - Competencies: 'skills.md'
 extra:
   social:
     - icon: fontawesome/brands/github
