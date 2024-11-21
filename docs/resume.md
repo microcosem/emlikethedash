@@ -2,27 +2,24 @@
 hide:
   - footer
 ---
-# Experience
-[Download PDF :material-tray-arrow-down:](resume2024.pdf){ .md-button }
+
 [LinkedIn :material-linkedin:](https://www.linkedin.com/in/em-h-2b80992b3){ .md-button }
 [GitHub :material-github:](https://github.com/microcosem){ .md-button }
+[Download PDF :material-tray-arrow-down:](resume2024.pdf){ .md-button }
+
+---
 
 ## Em Heinz
-*they/them/theirs*
 
-**Manager • Documentation Engineer • Technical Writer**
+they/them/theirs
 
 I pursue quality achieved collaboratively. I strive to empower the people I work with to do their best work, to grow, and to feel satisfied in their work. I am a voracious learner, and a big fan of unconventional approaches to problem solving.
 
-***
+### **CoreWeave, Inc.** – Manager of Product Documentation
 
-### CoreWeave, Inc. – New York (Remote)
+January 2024 - Present
 
-**Managing Editor**
-
-*January 2024 - Present*
-
-As Managing Editor at CoreWeave, I interface primarily with key stakeholders across Engineering, Product, and Marketing teams to ensure that crucial product documentation is produced on time and achieving our high standards. I strive to ensure my team feels heard and supported so that they may succeed and thrive. I continue to generate and edit product documentation across HPC, ML/AI, and VFX spaces using docs-as-code workflows and implementing the DITA framework Diátaxis.
+As Manager of Product Documentation at CoreWeave, I manage a team of amazing writer-engineers to produce extremely high quality, customer-facing documentation on all of CoreWeave's cloud services and products. We leverage the Diátaxis framework
 
 **Senior Technical Writer**
 

@@ -1,5 +1,5 @@
 ---
-site_name: Em Like the Dash
+site_name: Em (Like the Dash)
 docs_dir: docs
 theme:
   name: material
@@ -56,13 +56,15 @@ plugins:
 repo_url: https://github.com/microcosem
 nav:
   - Home: 'index.md'
-  - Résumé: 'resume.md'
-  - 'Portfolio':
-    - Professional: 'professional.md'
-    - Personal: 'personal.md'
+  - Projects: 'projects.md'
+  - Talks: 'talks.md'
+  - Writing: 'personal.md'
+  - Professional: 'resume.md'
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/microcosem
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/em-h-2b80992b3/
+extra_css:
+  - static/extras.css

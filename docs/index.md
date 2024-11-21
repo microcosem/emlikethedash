@@ -23,4 +23,4 @@ I've also done a lot of work on several **educational initiatives** centering wi
 
 A few years ago, I discovered, fell in love with, and pursued a career in **technical writing**.
 
-I now manage an amazing team of technical writers and docs engineers and direct product documentation at **[CoreWeave](https://coreweave.com), the GPU cloud**!
+I now manage an amazing team of technical writers and docs engineers and direct [product documentation at CoreWeave](https://docs.coreweave.com), the GPU cloud!
