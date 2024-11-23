@@ -15,9 +15,9 @@ I am currently the **Manager of Product Documentation** **at [CoreWeave](https:/
 
 ## `history`
 
-My start down the digital road was an unusual one: I cut my teeth on digital infrastructure deploying services on Raspberry Pis that were immediately available for neighborhood use in New York City, with the endgoal of networking together an intranet on [the NYC Mesh](https://www.nycmesh.net) featuring stuff like OMEMO-encrypted XMPP chat.
+My start down the digital road was an unusual one: I cut my teeth on digital infrastructure by deploying services on Raspberry Pis for neighborhood use in New York City, with the end goal of creating services like a local OMEMO-encrypted XMPP chat for a neighborhood-wide intranet on [the NYC Mesh](https://www.nycmesh.net).
 
-I've also done a lot of work on several **educational initiatives** centering with **digital security and privacy** outside of the industry sphere, and for a while, I also helped **found and run a small school**, and later co-organized a **grassroots conference** centered around fundamental digital skills, privacy, and security.
+I've also done a lot of work on several **educational initiatives** centering with **digital security and privacy** outside of the industry sphere. I helped **found and run a small school**, and later co-organized a **grassroots conference** centered around fundamental digital skills, privacy, and security.
 
 ## `ps -ef`
 
