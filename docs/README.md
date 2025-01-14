@@ -10,7 +10,7 @@ The site is built using [MkDocs](https://www.mkdocs.org) with [Material](https:/
 
 ## Building locally
 
-To build the site locally for yourself, you may either [spin up a Docker container](#locally-with-docker) or [run a local development server](#local-development) directly.
+To build the site locally for yourself, you may either [spin up a Docker container](#using-docker-and-docker-compose) or [run a local development server](#local-development) directly.
 
 ### Using Docker and docker-compose
 
