@@ -29,32 +29,32 @@ To build the site locally for yourself, you may either [spin up a Docker contain
 
 #### Prerequisites
 
-- MkDocs
+- [MkDocs](https://www.mkdocs.org/getting-started/#installation)
 - Python3
 
 #### Steps
 
 1. Clone this repository.
-2. From the repository's root, run `mkdocs build`.
-  ```zsh
-  $ mkdocs build
+1. From the repository's root, run `mkdocs build`.
+    ```zsh
+    $ mkdocs build
+      
+    INFO    -  Cleaning site directory
+    INFO    -  Building documentation to directory: emheinz.github.io/site
+    ```
+1. Next, run `mkdocs serve`:
+    ```zsh
+    $ mkdocs serve
     
-  INFO    -  Cleaning site directory
-  INFO    -  Building documentation to directory: emheinz.github.io/site
-  ```
-3. Next, run `mkdocs serve`:
-  ```zsh
-  $ mkdocs serve
-  
-  INFO    -  Building documentation...
-  INFO    -  Cleaning site directory
-  INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
-               - portfolio.md
-  INFO    -  Documentation built in 0.34 seconds
-  INFO    -  [13:29:30] Watching paths for changes: 'docs', 'mkdocs.yml'
-  INFO    -  [13:29:30] Serving on http://127.0.0.1:8000/
-  ```
-4. Hit the local server at `localhost:8000`.
+    INFO    -  Building documentation...
+    INFO    -  Cleaning site directory
+    INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+                 - portfolio.md
+    INFO    -  Documentation built in 0.34 seconds
+    INFO    -  [13:29:30] Watching paths for changes: 'docs', 'mkdocs.yml'
+    INFO    -  [13:29:30] Serving on http://127.0.0.1:8000/
+    ```
+1. Hit the local server at `localhost:8000`.
 
 ## Thanks!
 
