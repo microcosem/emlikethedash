@@ -4,15 +4,15 @@
 
 Hello and welcome! This repository holds the source for [my personal-professional website](https://emlikethedash.pages.dev).
 
-👉 [Heck, just go to the site!](https://emlikethedash.pages.dev)
-
 ## About the site
 
-The site is built using [MkDocs](https://www.mkdocs.org) with [Material](https://squidfunk.github.io/mkdocs-material/), and is hosted for the public by [Cloudflare Pages](https://pages.cloudflare.com/).
+The site is built using [MkDocs](https://www.mkdocs.org) with [Material](https://squidfunk.github.io/mkdocs-material/), and is built and hosted for the public by [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ## Building locally
 
-### Locally with Docker
+To build the site locally for yourself, you may either [spin up a Docker container](#locally-with-docker) or [run a local development server](#local-development) directly.
+
+### Using Docker and docker-compose
 
 #### Prerequisites
 
