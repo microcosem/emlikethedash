@@ -1,6 +1,6 @@
 ![Built with Markdown](https://img.shields.io/badge/Markdown-blue) ![Built with Mkdocs](https://img.shields.io/badge/MkDocs-red) ![Built with Docker](https://img.shields.io/badge/Docker-blue)
 
-## ✨ Welcome to my digital corner
+## ✨ Welcome to my digital corner!
 
 Hello and welcome! This repository holds the source for [my personal-professional website](https://emlikethedash.pages.dev).
 
