@@ -59,4 +59,3 @@ The site is built using [MkDocs](https://www.mkdocs.org) with [Material](https:/
 ## Thanks!
 
 - Thanks [@conceptualshark](https://github.com/conceptualshark) for writing a [great Dockerfile and docker-compose file for MkDocs sites](https://github.com/conceptualshark/conceptualshark.github.io/tree/main).
-- Thanks to [@StarfallProjects](https://github.com/StarfallProjects) for [documenting the process of hosting MkDocs with Material on Vercel](https://www.starfallprojects.co.uk/projects/deploy-host-docs/deploy-mkdocs-material-vercel/).
