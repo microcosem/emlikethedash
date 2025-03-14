@@ -1,0 +1,5 @@
+
+.md-button:hover {
+    background-color: var(--md-primary-fg-color);
+    border-color: var(--md-primary-fg-color)
+}
