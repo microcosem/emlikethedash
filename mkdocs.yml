@@ -1,5 +1,5 @@
 ---
-site_name: Em (Like the Dash)
+site_name: Em Like the Dash
 docs_dir: docs
 theme:
   name: material
@@ -23,16 +23,16 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: blue grey
+      primary: white
+      accent: white
       toggle:
         icon: material/weather-sunny
         name: Light Mode
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
-      accent: blue grey
+      primary: white
+      accent: white
       toggle:
         icon: material/weather-night
         name: Dark Mode
@@ -55,13 +55,13 @@ plugins:
   - privacy
 repo_url: https://github.com/microcosem
 nav:
-  - Home: 'index.md'
-  - Projects: 'projects.md'
-  - Talks: 'talks.md'
-  - Writing: 'personal.md'
-  - Professional:
-    - History: 'resume.md'
-    - Competencies: 'skills.md'
+  - Welcome: 'index.md'
+  # - Projects: 'projects.md'
+  # - Talks: 'talks.md'
+  # - Writing: 'personal.md'
+  # - Professional:
+  # - History: 'resume.md'
+  # - Toolbox: 'skills.md'
 extra:
   social:
     - icon: fontawesome/brands/github
