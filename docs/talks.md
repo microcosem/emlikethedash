@@ -11,7 +11,6 @@ Here are some topics I plan to talk about (and of course probably write about) i
 
 Building a DevRel team that empowers technical writers to become SMEs in their own right is an exciting concept - but tech writers who fear that this progression pushes them too far into marketing don't have baseless concerns. What does it look like to have a successful DevRel team that involves technical writers from the ground up?
 
-
 ### "Diátaxis vs. DITA: How did we get here?"
 
 [Diátaxis](https://diataxis.fr/) is quickly emerging as the new standard for documentation, but many decry it as simply the same thing as the much older, much more established [Darwin Information Typing Architecture (DITA)](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture). So why is Diátaxis winning, and what's the difference, anyway?

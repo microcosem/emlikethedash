@@ -3,7 +3,7 @@ hide:
   - footer
 ---
 
-## General
+## Project management
 
 <div class="grid cards" markdown>
 
