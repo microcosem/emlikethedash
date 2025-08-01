@@ -1,6 +1,13 @@
 ---
 site_name: Em Like the Dash
 docs_dir: docs
+exclude_docs: |
+  projects.md
+  talks.md
+  personal.md
+  resume.md
+  skills.md
+  caddy-on-gcp.md
 theme:
   name: material
   font:
