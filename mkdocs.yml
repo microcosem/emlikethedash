@@ -5,7 +5,6 @@ exclude_docs: |
   projects.md
   talks.md
   personal.md
-  resume.md
   skills.md
   caddy-on-gcp.md
 theme:
@@ -63,11 +62,11 @@ plugins:
 repo_url: https://github.com/microcosem
 nav:
   - Welcome: 'index.md'
+  - Resume: 'resume.md'
   # - Projects: 'projects.md'
   # - Talks: 'talks.md'
   # - Writing: 'personal.md'
   # - Professional:
-  # - History: 'resume.md'
   # - Toolbox: 'skills.md'
 extra:
   social:

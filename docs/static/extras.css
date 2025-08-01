@@ -3,3 +3,59 @@
     background-color: var(--md-primary-fg-color);
     border-color: var(--md-primary-fg-color)
 }
+
+/* Feature Cards */
+.feature-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.feature-card {
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: var(--md-primary-fg-color);
+    text-decoration: none;
+    color: inherit;
+}
+
+.feature-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--md-primary-fg-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Ensure h3 is visible in light mode */
+[data-md-color-scheme="light"] .feature-card h3 {
+    color: var(--md-primary-fg-color);
+}
+
+[data-md-color-scheme="dark"] .feature-card h3 {
+    color: var(--md-primary-fg-color);
+}
+
+.feature-card p {
+    margin: 0;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.feature-card .icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+}
