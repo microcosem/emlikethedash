@@ -1,6 +1,12 @@
 ---
 site_name: Em Like the Dash
 docs_dir: docs
+exclude_docs: |
+  projects.md
+  talks.md
+  personal.md
+  skills.md
+  caddy-on-gcp.md
 theme:
   name: material
   font:
@@ -23,16 +29,16 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: white
-      accent: white
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Light Mode
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
-      accent: white
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Dark Mode
@@ -56,11 +62,11 @@ plugins:
 repo_url: https://github.com/microcosem
 nav:
   - Welcome: 'index.md'
+  - Resume: 'resume.md'
   # - Projects: 'projects.md'
   # - Talks: 'talks.md'
   # - Writing: 'personal.md'
   # - Professional:
-  # - History: 'resume.md'
   # - Toolbox: 'skills.md'
 extra:
   social:

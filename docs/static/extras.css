@@ -1,5 +1,241 @@
 
+/* Accent color variations */
+:root {
+    --md-accent-fg-color--lighter: color-mix(in srgb, var(--md-accent-fg-color) 70%, transparent);
+    --md-accent-fg-color--light: color-mix(in srgb, var(--md-accent-fg-color) 85%, transparent);
+    --md-accent-fg-color--dark: color-mix(in srgb, var(--md-accent-fg-color) 115%, black);
+    --md-accent-fg-color--darker: color-mix(in srgb, var(--md-accent-fg-color) 130%, black);
+}
+
 .md-button:hover {
-    background-color: var(--md-primary-fg-color);
-    border-color: var(--md-primary-fg-color)
+    background-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color)
+}
+
+/* Feature Cards */
+.feature-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.feature-card {
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: var(--md-accent-fg-color);
+    text-decoration: none;
+    color: inherit;
+}
+
+.feature-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: var(--md-accent-fg-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Ensure h3 is visible in light mode */
+[data-md-color-scheme="light"] .feature-card h3 {
+    color: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="dark"] .feature-card h3 {
+    color: var(--md-accent-fg-color);
+}
+
+.feature-card p {
+    margin: 0;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.feature-card .icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--md-accent-fg-color);
+    opacity: 0.9;
+}
+
+/* Grid Cards - Remove hover shadow and darker background */
+.grid.cards {
+    --md-default-bg-color: var(--md-default-fg-color--lightest);
+}
+
+.grid.cards > * {
+    background-color: var(--md-default-fg-color--lightest) !important;
+    border: 1px solid var(--md-default-fg-color--light);
+    transition: border-color 0.3s ease;
+}
+
+.grid.cards > *:hover {
+    box-shadow: none !important;
+    transform: none !important;
+    border-color: var(--md-accent-fg-color);
+}
+
+/* More specific selectors to override Material for MkDocs defaults */
+.grid.cards > *:hover,
+.grid.cards > *:focus {
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+/* Override any existing box-shadow */
+.grid.cards > * {
+    box-shadow: none !important;
+}
+
+/* Target the actual li elements that Material for MkDocs styles */
+.grid.cards li {
+    background-color: var(--md-default-fg-color--lightest) !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
+.grid.cards li:hover {
+    box-shadow: none !important;
+    transform: none !important;
+    border: none !important;
+}
+
+/* Override Material for MkDocs card styles completely */
+.grid.cards li,
+.grid.cards li:hover,
+.grid.cards li:focus {
+    box-shadow: none !important;
+    transform: none !important;
+    background-color: var(--md-default-fg-color--lightest) !important;
+}
+
+/* Target all possible card elements and their hover states */
+.grid.cards *,
+.grid.cards *:hover,
+.grid.cards *:focus {
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+/* Grid card icons with accent color */
+.grid.cards .twemoji,
+.grid.cards .emojione,
+.grid.cards .gemoji,
+.grid.cards .material-icons {
+    color: var(--md-accent-fg-color);
+}
+
+/* Override any Material for MkDocs card animations */
+.grid.cards li {
+    animation: none !important;
+    transition: border-color 0.3s ease !important;
+}
+
+/* Remove any pseudo-element shadows */
+.grid.cards li::before,
+.grid.cards li::after {
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+/* Target the card wrapper elements */
+.grid.cards > li,
+.grid.cards > li > * {
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+/* Override any existing transitions */
+.grid.cards li {
+    transition: none !important;
+    transition-property: none !important;
+}
+
+/* Additional accent color styling */
+.md-button--primary {
+    background-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+    color: var(--md-accent-bg-color);
+}
+
+.md-button--primary:hover {
+    background-color: var(--md-accent-fg-color--dark);
+    border-color: var(--md-accent-fg-color--dark);
+}
+
+/* Regular buttons with accent color */
+.md-button:not(.md-button--primary) {
+    border-color: var(--md-accent-fg-color);
+    color: var(--md-accent-fg-color);
+}
+
+.md-button:not(.md-button--primary):hover {
+    background-color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+    color: var(--md-accent-bg-color);
+}
+
+/* Links with accent color */
+a:not(.md-button):not(.feature-card):not(.grid.cards a) {
+    color: var(--md-accent-fg-color);
+}
+
+a:not(.md-button):not(.feature-card):not(.grid.cards a):hover {
+    color: var(--md-accent-fg-color--dark);
+    text-decoration-color: var(--md-accent-fg-color--light);
+}
+
+/* Navigation accent colors */
+.md-nav__link:hover {
+    color: var(--md-accent-fg-color);
+}
+
+.md-nav__link--active {
+    color: var(--md-accent-fg-color);
+}
+
+/* Search accent colors */
+.md-search__input {
+    border-color: var(--md-accent-fg-color--light);
+}
+
+.md-search__input:focus {
+    border-color: var(--md-accent-fg-color);
+}
+
+/* Footer accent colors */
+.md-footer__link:hover {
+    color: var(--md-accent-fg-color);
+}
+
+/* Social links accent colors */
+.md-social__link:hover {
+    color: var(--md-accent-fg-color);
+}
+
+/* Admonition accent colors */
+.admonition {
+    border-left-color: var(--md-accent-fg-color--light);
+}
+
+.admonition-title {
+    background-color: var(--md-accent-fg-color--lighter);
+    color: var(--md-accent-fg-color--dark);
+}
+
+/* Bolder h2 headings */
+h2 {
+    font-weight: 800 !important;
 }
