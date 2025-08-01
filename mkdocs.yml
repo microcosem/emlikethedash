@@ -29,16 +29,16 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: white
-      accent: white
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Light Mode
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
-      accent: white
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Dark Mode
