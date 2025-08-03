@@ -58,10 +58,15 @@ plugins:
   - search
   - blog:
       authors: false
+      blog_toc: true
+      blog_categories: true
+      blog_tags: true
+      blog_nav: true
   - privacy
 repo_url: https://github.com/microcosem
 nav:
   - Welcome: 'index.md'
+  - Blog: 'blog/index.md'
   - Resume: 'resume.md'
   # - Projects: 'projects.md'
   # - Talks: 'talks.md'
